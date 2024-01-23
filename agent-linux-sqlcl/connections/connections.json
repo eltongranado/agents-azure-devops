@@ -1,0 +1,40 @@
+{
+  "databases": [
+    {
+      "database": "user",
+      "username": "pass",
+      "password": "dev",
+      "host": "10.1.1.1",
+      "port": "1521",
+      "service_name": "DEV",
+      "cofre": {
+        "systemName": "host (Db Instance: DEV, Port:1521)",
+        "accountName": "DEV"
+      }
+    },
+    {
+      "database": "user",
+      "username": "pass",
+      "password": "qa",
+      "host": "10.1.1.1",
+      "port": "1521",
+      "service_name": "QA",
+      "cofre": {
+        "systemName": "host (Db Instance: QA, Port:1521)",
+        "accountName": "QA"
+      }
+    },
+    {
+      "database": "user",
+      "username": "pass",
+      "password": "prd",
+      "host": "10.1.1.1",
+      "port": "1521",
+      "service_name": "PRD",
+      "cofre": {
+        "systemName": "host (Db Instance: PRD, Port:1521)",
+        "accountName": "PRD"
+      }
+    }
+  ]
+}
